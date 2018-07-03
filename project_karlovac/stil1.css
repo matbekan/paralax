@@ -1,0 +1,77 @@
+body, html {
+	height:100%;
+	margin:0;
+	font-size:14px;
+	font-family:Arial;
+	line-height:25px;
+	color:black;
+	
+}
+
+.img1, .img2, .img3{
+	position:relative;
+	opacity:0.90;
+	background-position:center;
+	background-size: cover;
+	background-repeat:no-repeat;
+
+	background-attachment:fixed; 	/*paralax efekt */
+}
+.img1{
+	background-image:url(../project_karlovac/aqua.jpg);
+	min-height:100%; /*veličina kontejnera max */
+	
+}
+
+.img2{
+	background-image:url(../project_karlovac/rib.jpg);
+	min-height:400px; 
+}
+
+.img3{
+	background-image:url(../project_karlovac/aq3.jpg);
+	min-height:400px; 
+}
+
+
+
+
+.sekcija1{
+	background-color: grey;
+	color:white;
+	text-align:center;
+	padding: 50px 80px;
+}
+
+.sekcija2{
+	background-color:black;
+	color:gray;
+	text-align:center;
+	padding: 50px 80px;
+}
+
+.sekcija3{
+	background-color: grey;
+	color:white;
+	text-align:center;
+	padding: 50px 80px;
+}
+
+.border{
+	background-color: #e6e6ff;
+	padding:20px;
+	opacity:0.7;
+	
+	
+}
+.tekst{
+	position:absolute;
+	top:50%;
+	width: 100%;
+	text-align:center;
+	font-weight:bold;
+	color: black;
+	font-size:30px;
+	letter-spacing:6px;
+	text-transform: uppercase;
+}
